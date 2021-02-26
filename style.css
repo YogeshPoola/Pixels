@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bebas Neue", cursive;
+}
+
+header {
+  min-height: 30vh;
+}
+
+header a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 2rem;
+  margin: 2rem 1rem;
+  font-size: 4rem;
+}
+
+header h2 {
+  padding: 2rem;
+}
+#logo {
+  text-decoration: none;
+  color: black;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-form input {
+  padding: 0.5rem;
+  border: none;
+  border: 1px solid rgb(31, 150, 247);
+  width: 20%;
+}
+
+.search-form button {
+  flex-basis: 1rem;
+  padding: 0.5rem;
+  border: none;
+  font-size: 1rem;
+  background: rgb(31, 150, 247);
+  cursor: pointer;
+}
+
+.gallery-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  padding: 0rem 1rem;
+  font-size: 1.2rem;
+}
+
+.gallery-info a {
+  color: black;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  padding: 2rem 1rem 0rem 1rem;
+}
+
+.gallery-image {
+  padding: 0rem 1rem;
+}
+
+.gallery-image img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+.more-button {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0rem 1rem 6rem 1rem;
+}
+
+.more {
+  padding: 1rem 2rem;
+  background: rgb(31, 150, 247);
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: white;
+}
